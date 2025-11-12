@@ -73,7 +73,7 @@ const Pricing = () => {
                      </li>
                      <li className="flex items-start text-white">
                         <Check className="w-5 h-5 mr-3 mt-0.5 check-icon" />
-                        <span>Targeting the right audiences by interests and geography</span>
+                        <span>Targeting the right audiences</span>
                      </li>
                      <li className="flex items-start text-white">
                         <Check className="w-5 h-5 mr-3 mt-0.5 check-icon" />
@@ -81,11 +81,11 @@ const Pricing = () => {
                      </li>
                      <li className="flex items-start text-white">
                         <Check className="w-5 h-5 mr-3 mt-0.5 check-icon" />
-                        <span>Analytics integration and regular performance reporting</span>
+                        <span>Analytics integration</span>
                      </li>
                      <li className="flex items-start text-white">
                         <Check className="w-5 h-5 mr-3 mt-0.5 check-icon" />
-                        <span>Support and optimization tailored to your needs</span>
+                        <span>Support and optimization</span>
                      </li>
                   </ul>
                   <div className="pricing-badge mb-4 text-center p-2">
