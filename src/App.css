@@ -295,12 +295,6 @@ body {
 }
 
 /* ========== PRICING CARD ========== */
-.pricing-wrapper {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   column-gap: 10px;
-}
 
 .pricing-card {
    background: var(--dark-card);
