@@ -61,7 +61,53 @@
    },
    "portfolio": {
       "title": "Portfolio",
-      "subtitle": "Examples of our work and completed projects"
+      "subtitle": "Examples of our work and completed projects",
+      "items": [
+         {
+            "id": 1,
+            "title": "E-commerce Platform",
+            "category": "Online Store",
+            "description": "Modern online store with payment system integration",
+            "technologies": [
+               "React",
+               "Node.js",
+               "MongoDB"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "Corporate Website",
+            "category": "Business",
+            "description": "Representative website for a large company",
+            "technologies": [
+               "Next.js",
+               "TypeScript",
+               "Tailwind"
+            ]
+         },
+         {
+            "id": 3,
+            "title": "SaaS Platform",
+            "category": "Startup",
+            "description": "Cloud solution for project management",
+            "technologies": [
+               "React",
+               "FastAPI",
+               "PostgreSQL"
+            ]
+         },
+         {
+            "id": 4,
+            "title": "Product Landing",
+            "category": "Marketing",
+            "description": "High-conversion landing page",
+            "technologies": [
+               "React",
+               "Framer Motion",
+               "CSS"
+            ]
+         }
+      ]
    },
    "pricing": {
       "title": "Pricing",

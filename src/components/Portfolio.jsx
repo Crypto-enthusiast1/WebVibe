@@ -2,14 +2,13 @@ import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { useTranslation } from 'react-i18next';
-import { mockData } from '../mock';
 
 const Portfolio = () => {
    const { t } = useTranslation();
+   const projects = t('portfolio.items', { returnObjects: true });
+
    return (
       <section id="portfolio" className="section-padding portfolio-section">
-         {/* Background handled globally by NeonBackground */}
-
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-16">
                <h2 className="section-title">{t('portfolio.title')}</h2>
@@ -19,7 +18,7 @@ const Portfolio = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-               {mockData.portfolio.map((project) => (
+               {Array.isArray(projects) && projects.map((project) => (
                   <Card key={project.id} className="portfolio-card group">
                      <CardHeader>
                         <div className="flex items-start justify-between">
@@ -32,7 +31,7 @@ const Portfolio = () => {
                      </CardHeader>
                      <CardContent>
                         <div className="flex flex-wrap gap-2">
-                           {project.technologies.map((tech, index) => (
+                           {Array.isArray(project.technologies) && project.technologies.map((tech, index) => (
                               <Badge key={index} variant="secondary" className="tech-badge">
                                  {tech}
                               </Badge>

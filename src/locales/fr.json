@@ -61,7 +61,53 @@
    },
    "portfolio": {
       "title": "Portfolio",
-      "subtitle": "Exemples de nos travaux et projets réalisés"
+      "subtitle": "Exemples de nos travaux et projets réalisés",
+      "items": [
+         {
+            "id": 1,
+            "title": "Plateforme E-commerce",
+            "category": "Boutique en ligne",
+            "description": "Boutique en ligne moderne avec intégration d'un système de paiement",
+            "technologies": [
+               "React",
+               "Node.js",
+               "MongoDB"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "Site d'entreprise",
+            "category": "Entreprise",
+            "description": "Site représentatif pour une grande entreprise",
+            "technologies": [
+               "Next.js",
+               "TypeScript",
+               "Tailwind"
+            ]
+         },
+         {
+            "id": 3,
+            "title": "Plateforme SaaS",
+            "category": "Startup",
+            "description": "Solution cloud pour la gestion de projet",
+            "technologies": [
+               "React",
+               "FastAPI",
+               "PostgreSQL"
+            ]
+         },
+         {
+            "id": 4,
+            "title": "Landing produit",
+            "category": "Marketing",
+            "description": "Page d'atterrissage à haute conversion",
+            "technologies": [
+               "React",
+               "Framer Motion",
+               "CSS"
+            ]
+         }
+      ]
    },
    "pricing": {
       "title": "Tarification",

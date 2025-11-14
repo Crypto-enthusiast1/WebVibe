@@ -2,7 +2,6 @@ import React from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { Button } from './ui/button';
 import { useTranslation } from 'react-i18next';
-import { mockData } from '../mock';
 
 const Hero = () => {
    const { t } = useTranslation();

@@ -61,7 +61,53 @@
    },
    "portfolio": {
       "title": "Portfolio",
-      "subtitle": "Voorbeelden van ons werk en voltooide projecten"
+      "subtitle": "Voorbeelden van ons werk en voltooide projecten",
+      "items": [
+         {
+            "id": 1,
+            "title": "E-commerce Platform",
+            "category": "Online winkel",
+            "description": "Moderne online winkel met integratie van betaalsystemen",
+            "technologies": [
+               "React",
+               "Node.js",
+               "MongoDB"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "Bedrijfswebsite",
+            "category": "Bedrijf",
+            "description": "Representatieve website voor een groot bedrijf",
+            "technologies": [
+               "Next.js",
+               "TypeScript",
+               "Tailwind"
+            ]
+         },
+         {
+            "id": 3,
+            "title": "SaaS Platform",
+            "category": "Startup",
+            "description": "Cloudoplossing voor projectbeheer",
+            "technologies": [
+               "React",
+               "FastAPI",
+               "PostgreSQL"
+            ]
+         },
+         {
+            "id": 4,
+            "title": "Product Landing",
+            "category": "Marketing",
+            "description": "Landingspagina met hoge conversie",
+            "technologies": [
+               "React",
+               "Framer Motion",
+               "CSS"
+            ]
+         }
+      ]
    },
    "pricing": {
       "title": "Prijzen",

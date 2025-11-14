@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
@@ -23,7 +22,7 @@ const LanguageSwitcher = () => {
       <div className="language-switcher relative">
          <button
             onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/10 transition-colors text-white"
+            className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/10 transition-colors text-white justify-self-end"
             aria-label="Change language"
          >
             <img src={currentLang.flag} alt={currentLang.code} className="w-5 h-5 rounded" />
@@ -37,8 +36,8 @@ const LanguageSwitcher = () => {
                      key={lang.code}
                      onClick={() => changeLanguage(lang.code)}
                      className={`flex items-center gap-2 w-full px-4 py-2 text-left text-sm transition-colors ${i18n.language === lang.code
-                           ? 'bg-white/10 text-white font-semibold'
-                           : 'hover:bg-white/5 text-white/70'
+                        ? 'bg-white/10 text-white font-semibold'
+                        : 'hover:bg-white/5 text-white/70'
                         }`}
                   >
                      <img src={lang.flag} alt={lang.code} className="w-5 h-5 rounded" />
