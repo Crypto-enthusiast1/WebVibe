@@ -137,6 +137,7 @@
       "name_placeholder": "Your Name",
       "email_placeholder": "Email",
       "message_placeholder": "Your Message",
+      "phone_placeholder": "Phone Number",
       "send_button": "Send",
       "sending_button": "Sending...",
       "response_time": "We usually respond within 24 hours",

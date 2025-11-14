@@ -136,6 +136,7 @@
       "form_description": "Remplissez le formulaire et nous vous répondrons",
       "name_placeholder": "Votre Nom",
       "email_placeholder": "Email",
+      "phone_placeholder": "Numéro de Téléphone",
       "message_placeholder": "Votre Message",
       "send_button": "Envoyer",
       "sending_button": "Envoi en cours...",

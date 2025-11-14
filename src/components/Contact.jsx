@@ -7,13 +7,16 @@ import { Button } from './ui/button';
 import { useTranslation } from 'react-i18next';
 import { useToast } from '../hooks/use-toast';
 
+import handleSecureFormSubmission from '@/formHandler';
+
 const Contact = () => {
    const { t } = useTranslation();
    const { toast } = useToast();
    const [formData, setFormData] = useState({
       name: '',
       email: '',
-      message: ''
+      message: '',
+      phone: ''
    });
    const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -28,16 +31,31 @@ const Contact = () => {
       e.preventDefault();
       setIsSubmitting(true);
 
-      // Mock submission - will be connected to backend later
-      setTimeout(() => {
+      try {
+         const result = await handleSecureFormSubmission(e.target);
+
+         if (result.success) {
+            toast({
+               title: t('contact.success_title'),
+               description: t('contact.success_description'),
+            });
+            setFormData({ name: '', email: '', message: '', phone: '' });
+         } else {
+            toast({
+               title: 'Error',
+               description: result.message,
+            });
+         }
+      } catch (error) {
          toast({
-            title: t('contact.success_title'),
-            description: t('contact.success_description'),
+            title: 'Error',
+            description: 'Произошла ошибка при отправке формы',
          });
-         setFormData({ name: '', email: '', message: '' });
+      } finally {
          setIsSubmitting(false);
-      }, 1000);
+      }
    };
+
 
    return (
       <section id="contact" className="section-padding contact-section">
@@ -75,6 +93,17 @@ const Contact = () => {
                         </div>
                         <div>
                            <Input
+                              type="phone"
+                              name="phone"
+                              placeholder={t('contact.phone_placeholder')}
+                              value={formData.phone}
+                              onChange={handleChange}
+                              required
+                              className="contact-input"
+                           />
+                        </div>
+                        <div>
+                           <Input
                               type="email"
                               name="email"
                               placeholder={t('contact.email_placeholder')}
@@ -90,7 +119,6 @@ const Contact = () => {
                               placeholder={t('contact.message_placeholder')}
                               value={formData.message}
                               onChange={handleChange}
-                              required
                               rows={5}
                               className="contact-input"
                            />

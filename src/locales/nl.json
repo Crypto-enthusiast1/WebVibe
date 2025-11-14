@@ -136,6 +136,7 @@
       "form_description": "Vul het formulier in en we nemen contact met u op",
       "name_placeholder": "Uw Naam",
       "email_placeholder": "E-mailadres",
+      "phone_placeholder": "Telefoonnummer",
       "message_placeholder": "Uw bericht",
       "send_button": "Versturen",
       "sending_button": "Verzenden...",
