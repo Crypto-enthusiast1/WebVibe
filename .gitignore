@@ -1,3 +1,5 @@
+.env
+.env.local
 # IDE and editors
 .idea/
 .vscode/
@@ -76,5 +78,3 @@ agenthub/agents/youtube/db
 
 # Mobile development
 android-sdk/ 
-.env
-.env.local
