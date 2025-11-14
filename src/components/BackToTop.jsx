@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Rocket } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const BackToTop = () => {
+   const { t } = useTranslation();
    const [visible, setVisible] = useState(false);
 
    useEffect(() => {
@@ -9,7 +11,6 @@ const BackToTop = () => {
          setVisible(window.scrollY > 150);
       };
 
-      // set initial state
       onScroll();
 
       window.addEventListener('scroll', onScroll, { passive: true });
@@ -24,8 +25,8 @@ const BackToTop = () => {
       <button
          className={`back-to-top ${visible ? 'show' : ''}`}
          onClick={scrollToTop}
-         aria-label="Scroll to top"
-         title="Back to top"
+         aria-label={t('header.scroll_to_top_title')}
+         title={t('header.scroll_to_top_title')}
       >
          <Rocket className="w-5 h-5" />
       </button>

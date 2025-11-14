@@ -1,0 +1,122 @@
+{
+   "header": {
+      "logo": "WebVibe",
+      "mobile_menu": "Ouvrir le menu mobile",
+      "scroll_to_top_title": "Retour au haut"
+   },
+   "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "pricing": "Tarification",
+      "contact": "Contact",
+      "get_in_touch": "Nous Contacter"
+   },
+   "hero": {
+      "badge": "Solutions Numériques de Prochaine Génération",
+      "cta_start_project": "Démarrer un Projet",
+      "cta_view_work": "Voir Notre Portfolio"
+   },
+   "services": {
+      "title": "Nos Services",
+      "subtitle": "Des solutions complètes pour la croissance de votre entreprise en ligne",
+      "custom_development": "Développement Personnalisé",
+      "growth_marketing": "Croissance et Marketing",
+      "product_strategy": "Stratégie Produit",
+      "items": [
+         {
+            "id": 1,
+            "title": "Développement de Site Web",
+            "description": "Nous créons des sites modernes, rapides et adaptatifs qui transforment les visiteurs en clients",
+            "features": [
+               "Design Réactif",
+               "Haute Performance",
+               "Optimisation SEO",
+               "Technologies Modernes"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "Optimisation SEO",
+            "description": "Nous propulsons votre site en tête des moteurs de recherche et attirons du trafic organique ciblé",
+            "features": [
+               "Analyse des Concurrents",
+               "Optimisation Technique",
+               "Stratégie de Contenu",
+               "Croissance de Positionnement"
+            ]
+         },
+         {
+            "id": 3,
+            "title": "Publicité Contextuelle",
+            "description": "Nous mettons en place des campagnes publicitaires efficaces pour une acquisition rapide de clients",
+            "features": [
+               "Google Ads",
+               "Facebook Ads",
+               "Analyse ROI",
+               "Optimisation de Budget"
+            ]
+         }
+      ]
+   },
+   "portfolio": {
+      "title": "Portfolio",
+      "subtitle": "Exemples de nos travaux et projets réalisés"
+   },
+   "pricing": {
+      "title": "Tarification",
+      "subtitle": "Approche individuelle pour chaque projet",
+      "website_development_title": "Développement de Site Web",
+      "website_development_note": "Incluant la planification, la conception et le lancement",
+      "advertising_campaign_title": "Campagne Publicitaire",
+      "advertising_campaign_note": "Le coût de chaque campagne est calculé individuellement selon vos objectifs et votre budget",
+      "starting_price": "À partir de 500 €",
+      "feature1": "Cycle complet de développement de la conception au lancement",
+      "feature2": "Mise en page réactive pour tous les appareils",
+      "feature3": "Optimisation SEO basique",
+      "feature4": "Intégration d'analyses",
+      "feature5": "Support technique pendant 3 mois",
+      "feature6": "Formation à la gestion du site web",
+      "feature7": "Développement complet de la stratégie publicitaire et du plan média",
+      "feature8": "Ciblage des bonnes audiences",
+      "feature9": "Lancement et gestion des campagnes sur les plateformes (Google, Facebook, YouTube)",
+      "feature10": "Support et optimisation",
+      "cta_discuss": "Discuter du Projet"
+   },
+   "contact": {
+      "title": "Nous Contacter",
+      "subtitle": "Prêt à discuter de votre projet? Écrivez-nous!",
+      "form_title": "Envoyer un Message",
+      "form_description": "Remplissez le formulaire et nous vous répondrons",
+      "name_placeholder": "Votre Nom",
+      "email_placeholder": "Email",
+      "message_placeholder": "Votre Message",
+      "send_button": "Envoyer",
+      "sending_button": "Envoi en cours...",
+      "response_time": "Nous répondons généralement en 24 heures",
+      "email_label": "Email",
+      "social_media_label": "Réseaux Sociaux",
+      "email": "hello@webvibe.com",
+      "telegram": "Telegram: @webvibe",
+      "instagram": "Instagram: @webvibe",
+      "success_title": "Message envoyé!",
+      "success_description": "Nous vous contacterons bientôt."
+   },
+   "footer": {
+      "company": "WebVibe",
+      "company_tagline": "Créer des solutions numériques qui fonctionnent",
+      "company_description": "Nous sommes spécialisés dans la création de sites web modernes, l'optimisation SEO et la publicité contextuelle performante. Nos solutions aident les entreprises à se développer dans l'univers numérique.",
+      "services_title": "Services",
+      "services_website": "Développement de Site Web",
+      "services_seo": "Optimisation SEO",
+      "services_advertising": "Publicité Contextuelle",
+      "contact_title": "Contact",
+      "copyright": "© 2025 WebVibe. Tous droits réservés.",
+      "made_with": "Fait avec soin"
+   },
+   "common": {
+      "not_found_title": "Page non trouvée",
+      "not_found_message": "Désolé, nous n'avons pas pu trouver cette page.",
+      "loading": "Chargement..."
+   }
+}

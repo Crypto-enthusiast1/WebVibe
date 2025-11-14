@@ -1,18 +1,20 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
+import { useTranslation } from 'react-i18next';
 import { mockData } from '../mock';
 
 const Portfolio = () => {
+   const { t } = useTranslation();
    return (
       <section id="portfolio" className="section-padding portfolio-section">
          {/* Background handled globally by NeonBackground */}
 
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-16">
-               <h2 className="section-title">Portfolio</h2>
+               <h2 className="section-title">{t('portfolio.title')}</h2>
                <p className="section-subtitle">
-                  Examples of our work and completed projects
+                  {t('portfolio.subtitle')}
                </p>
             </div>
 

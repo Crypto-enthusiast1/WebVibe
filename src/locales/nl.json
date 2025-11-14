@@ -1,0 +1,122 @@
+{
+   "header": {
+      "logo": "WebVibe",
+      "mobile_menu": "Mobiel menu openen",
+      "scroll_to_top_title": "Terug naar bovenkant"
+   },
+   "nav": {
+      "home": "Startpagina",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "pricing": "Prijzen",
+      "contact": "Contact",
+      "get_in_touch": "Neem contact op"
+   },
+   "hero": {
+      "badge": "Digitale Oplossingen van Volgende Generatie",
+      "cta_start_project": "Start een Project",
+      "cta_view_work": "Bekijk ons Werk"
+   },
+   "services": {
+      "title": "Onze Services",
+      "subtitle": "Uitgebreide oplossingen voor de groei van uw bedrijf online",
+      "custom_development": "Aangepaste Ontwikkeling",
+      "growth_marketing": "Groei & Marketing",
+      "product_strategy": "Productstrategie",
+      "items": [
+         {
+            "id": 1,
+            "title": "Website-ontwikkeling",
+            "description": "We creëren moderne, snelle en responsieve websites die bezoekers omzetten in klanten",
+            "features": [
+               "Responsief Ontwerp",
+               "Hoge Prestaties",
+               "SEO-optimalisatie",
+               "Moderne Technologieën"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "SEO-optimalisatie",
+            "description": "We promoten uw site naar de top van zoekmachines en trekken gericht organisch verkeer aan",
+            "features": [
+               "Concurrentieanalyse",
+               "Technische Optimalisatie",
+               "Contentstrategie",
+               "Ranking Groei"
+            ]
+         },
+         {
+            "id": 3,
+            "title": "Contextuele Advertenties",
+            "description": "We zetten effectieve advertentiecampagnes op voor een snelle klantenacquisitie",
+            "features": [
+               "Google Ads",
+               "Facebook Ads",
+               "ROI-analyse",
+               "Budgetoptimalisatie"
+            ]
+         }
+      ]
+   },
+   "portfolio": {
+      "title": "Portfolio",
+      "subtitle": "Voorbeelden van ons werk en voltooide projecten"
+   },
+   "pricing": {
+      "title": "Prijzen",
+      "subtitle": "Individuele benadering voor elk project",
+      "website_development_title": "Website-ontwikkeling",
+      "website_development_note": "Inclusief planning, ontwerp en lancering",
+      "advertising_campaign_title": "Advertentiecampagne",
+      "advertising_campaign_note": "De kosten van elke campagne worden individueel berekend op basis van uw doelstellingen en budget",
+      "starting_price": "Vanaf 500 €",
+      "feature1": "Volledige ontwikkelingscyclus van ontwerp tot lancering",
+      "feature2": "Responsieve layout voor alle apparaten",
+      "feature3": "Basis SEO-optimalisatie",
+      "feature4": "Analyseintegratie",
+      "feature5": "3 maanden technische ondersteuning",
+      "feature6": "Training op websitebeheer",
+      "feature7": "Uitgebreide ontwikkeling van reclamestrategie en mediaplan",
+      "feature8": "Doelgroepinrichting",
+      "feature9": "Lancering en beheer van campagnes op platforms (Google, Facebook, YouTube)",
+      "feature10": "Ondersteuning en optimalisatie",
+      "cta_discuss": "Project bespreken"
+   },
+   "contact": {
+      "title": "Neem contact op",
+      "subtitle": "Klaar om uw project te bespreken? Schrijf naar ons!",
+      "form_title": "Stuur een bericht",
+      "form_description": "Vul het formulier in en we nemen contact met u op",
+      "name_placeholder": "Uw Naam",
+      "email_placeholder": "E-mailadres",
+      "message_placeholder": "Uw bericht",
+      "send_button": "Versturen",
+      "sending_button": "Verzenden...",
+      "response_time": "We reageren meestal binnen 24 uur",
+      "email_label": "E-mailadres",
+      "social_media_label": "Sociale Media",
+      "email": "hello@webvibe.com",
+      "telegram": "Telegram: @webvibe",
+      "instagram": "Instagram: @webvibe",
+      "success_title": "Bericht verzonden!",
+      "success_description": "We nemen binnenkort contact met u op."
+   },
+   "footer": {
+      "company": "WebVibe",
+      "company_tagline": "Digitale oplossingen creëren die werken",
+      "company_description": "Wij zijn gespecialiseerd in het creëren van moderne websites, SEO-optimalisatie en effectieve contextuele advertenties. Onze oplossingen helpen bedrijven groeien in de digitale wereld.",
+      "services_title": "Services",
+      "services_website": "Website-ontwikkeling",
+      "services_seo": "SEO-optimalisatie",
+      "services_advertising": "Contextadvertentie",
+      "contact_title": "Contact",
+      "copyright": "© 2025 WebVibe. Alle rechten voorbehouden.",
+      "made_with": "Gemaakt met zorg"
+   },
+   "common": {
+      "not_found_title": "Pagina niet gevonden",
+      "not_found_message": "Helaas konden we die pagina niet vinden.",
+      "loading": "Laden..."
+   }
+}

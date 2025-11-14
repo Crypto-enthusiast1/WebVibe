@@ -1,4 +1,5 @@
 import React from "react";
+import "./i18n";
 import "./App.css";
 import { Toaster } from "./components/ui/sonner";
 import Header from "./components/Header";

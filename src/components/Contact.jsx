@@ -4,9 +4,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Button } from './ui/button';
+import { useTranslation } from 'react-i18next';
 import { useToast } from '../hooks/use-toast';
 
 const Contact = () => {
+   const { t } = useTranslation();
    const { toast } = useToast();
    const [formData, setFormData] = useState({
       name: '',
@@ -29,8 +31,8 @@ const Contact = () => {
       // Mock submission - will be connected to backend later
       setTimeout(() => {
          toast({
-            title: "Message sent!",
-            description: "We will contact you shortly.",
+            title: t('contact.success_title'),
+            description: t('contact.success_description'),
          });
          setFormData({ name: '', email: '', message: '' });
          setIsSubmitting(false);
@@ -43,9 +45,9 @@ const Contact = () => {
 
          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-12">
-               <h2 className="section-title">Get in Touch</h2>
+               <h2 className="section-title">{t('contact.title')}</h2>
                <p className="section-subtitle">
-                  Ready to discuss your project? Write to us!
+                  {t('contact.subtitle')}
                </p>
             </div>
 
@@ -54,9 +56,9 @@ const Contact = () => {
                   <CardHeader>
                      <CardTitle className="flex items-center gap-2 text-white">
                         <MessageSquare className="w-5 h-5" />
-                        Send a Message
+                        {t('contact.form_title')}
                      </CardTitle>
-                     <CardDescription>Fill out the form and we'll get back to you</CardDescription>
+                     <CardDescription>{t('contact.form_description')}</CardDescription>
                   </CardHeader>
                   <CardContent>
                      <form onSubmit={handleSubmit} className="space-y-4">
@@ -64,7 +66,7 @@ const Contact = () => {
                            <Input
                               type="text"
                               name="name"
-                              placeholder="Your Name"
+                              placeholder={t('contact.name_placeholder')}
                               value={formData.name}
                               onChange={handleChange}
                               required
@@ -75,7 +77,7 @@ const Contact = () => {
                            <Input
                               type="email"
                               name="email"
-                              placeholder="Email"
+                              placeholder={t('contact.email_placeholder')}
                               value={formData.email}
                               onChange={handleChange}
                               required
@@ -85,7 +87,7 @@ const Contact = () => {
                         <div>
                            <Textarea
                               name="message"
-                              placeholder="Your Message"
+                              placeholder={t('contact.message_placeholder')}
                               value={formData.message}
                               onChange={handleChange}
                               required
@@ -94,7 +96,7 @@ const Contact = () => {
                            />
                         </div>
                         <Button type="submit" disabled={isSubmitting} className="w-full cta-button-large group">
-                           {isSubmitting ? 'Sending...' : 'Send'}
+                           {isSubmitting ? t('contact.sending_button') : t('contact.send_button')}
                            <Send className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                         </Button>
                      </form>
@@ -106,33 +108,33 @@ const Contact = () => {
                      <CardHeader>
                         <CardTitle className="flex items-center gap-2 text-lg text-white">
                            <Mail className="w-5 h-5" />
-                           Email
+                           {t('contact.email_label')}
                         </CardTitle>
                      </CardHeader>
                      <CardContent>
                         <a href="mailto:hello@webvibe.com" className="contact-link">
-                           hello@webvibe.com
+                           {t('contact.email')}
                         </a>
                      </CardContent>
                   </Card>
 
                   <Card className="contact-info-card">
                      <CardHeader>
-                        <CardTitle className="text-lg text-white">Social Media</CardTitle>
+                        <CardTitle className="text-lg text-white">{t('contact.social_media_label')}</CardTitle>
                      </CardHeader>
                      <CardContent className="space-y-2">
                         <a href="https://t.me/webvibe" target="_blank" rel="noopener noreferrer" className="contact-link block">
-                           Telegram: @webvibe
+                           {t('contact.telegram')}
                         </a>
                         <a href="https://instagram.com/webvibe" target="_blank" rel="noopener noreferrer" className="contact-link block">
-                           Instagram: @webvibe
+                           {t('contact.instagram')}
                         </a>
                      </CardContent>
                   </Card>
 
                   <div className="contact-cta">
                      <p className="text-sm opacity-80 text-white">
-                        We usually respond within 24 hours
+                        {t('contact.response_time')}
                      </p>
                   </div>
                </div>

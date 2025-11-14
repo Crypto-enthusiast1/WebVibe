@@ -1,0 +1,122 @@
+{
+   "header": {
+      "logo": "WebVibe",
+      "mobile_menu": "Open mobile menu",
+      "scroll_to_top_title": "Back to top"
+   },
+   "nav": {
+      "home": "Home",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "get_in_touch": "Get in Touch"
+   },
+   "hero": {
+      "badge": "Next-Gen Digital Solutions",
+      "cta_start_project": "Start a Project",
+      "cta_view_work": "View Our Work"
+   },
+   "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive solutions for your business growth online",
+      "custom_development": "Custom Development",
+      "growth_marketing": "Growth & Marketing",
+      "product_strategy": "Product Strategy",
+      "items": [
+         {
+            "id": 1,
+            "title": "Website Development",
+            "description": "We create modern, fast, and responsive websites that convert visitors into customers",
+            "features": [
+               "Responsive Design",
+               "High Performance",
+               "SEO Optimization",
+               "Modern Technologies"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "SEO Optimization",
+            "description": "We promote your site to the top of search engines and attract targeted organic traffic",
+            "features": [
+               "Competitor Analysis",
+               "Technical Optimization",
+               "Content Strategy",
+               "Ranking Growth"
+            ]
+         },
+         {
+            "id": 3,
+            "title": "Contextual Advertising",
+            "description": "We set up effective advertising campaigns for quick customer acquisition",
+            "features": [
+               "Google Ads",
+               "Facebook Ads",
+               "ROI Analytics",
+               "Budget Optimization"
+            ]
+         }
+      ]
+   },
+   "portfolio": {
+      "title": "Portfolio",
+      "subtitle": "Examples of our work and completed projects"
+   },
+   "pricing": {
+      "title": "Pricing",
+      "subtitle": "Individual approach to each project",
+      "website_development_title": "Website Development",
+      "website_development_note": "Includes planning, design and launch",
+      "advertising_campaign_title": "Advertising Campaign",
+      "advertising_campaign_note": "The cost of each campaign is calculated individually based on your goals and budget",
+      "starting_price": "Starting at 500€",
+      "feature1": "Full development cycle from design to launch",
+      "feature2": "Responsive layout for all devices",
+      "feature3": "Basic SEO optimization",
+      "feature4": "Analytics integration",
+      "feature5": "3 months technical support",
+      "feature6": "Training on website management",
+      "feature7": "Comprehensive development of advertising strategy and media plan",
+      "feature8": "Targeting the right audiences",
+      "feature9": "Launch and management of campaigns on platforms (Google, Facebook, YouTube)",
+      "feature10": "Support and optimization",
+      "cta_discuss": "Discuss Project"
+   },
+   "contact": {
+      "title": "Get in Touch",
+      "subtitle": "Ready to discuss your project? Write to us!",
+      "form_title": "Send a Message",
+      "form_description": "Fill out the form and we'll get back to you",
+      "name_placeholder": "Your Name",
+      "email_placeholder": "Email",
+      "message_placeholder": "Your Message",
+      "send_button": "Send",
+      "sending_button": "Sending...",
+      "response_time": "We usually respond within 24 hours",
+      "email_label": "Email",
+      "social_media_label": "Social Media",
+      "email": "hello@webvibe.com",
+      "telegram": "Telegram: @webvibe",
+      "instagram": "Instagram: @webvibe",
+      "success_title": "Message sent!",
+      "success_description": "We will contact you shortly."
+   },
+   "footer": {
+      "company": "WebVibe",
+      "company_tagline": "Crafting digital solutions that work",
+      "company_description": "We specialize in creating modern websites, SEO optimization, and effective contextual advertising. Our solutions help businesses grow in the digital space.",
+      "services_title": "Services",
+      "services_website": "Website Development",
+      "services_seo": "SEO Optimization",
+      "services_advertising": "Contextual Advertising",
+      "contact_title": "Contact",
+      "copyright": "© 2025 WebVibe. All rights reserved.",
+      "made_with": "Made with care"
+   },
+   "common": {
+      "not_found_title": "Page not found",
+      "not_found_message": "Sorry, we couldn't find that page.",
+      "loading": "Loading..."
+   }
+}
