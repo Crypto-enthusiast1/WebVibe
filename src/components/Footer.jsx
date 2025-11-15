@@ -25,9 +25,8 @@ const Footer = () => {
                <div>
                   <h3 className="footer-title">{t('footer.contact_title')}</h3>
                   <ul className="space-y-2">
-                     <li><a href="mailto:hello@webvibe.com" className="footer-link">{t('contact.email')}</a></li>
-                     <li><a href="https://t.me/webvibe" className="footer-link">Telegram</a></li>
-                     <li><a href="https://instagram.com/webvibe" className="footer-link">Instagram</a></li>
+                     <li><a href="mailto:webvibeee@gmail.com" className="footer-link">webvibeee@gmail.com</a></li>
+                     <li><a href="https://t.me/artem_0x" className="footer-link">Telegram</a></li>
                   </ul>
                </div>
             </div>

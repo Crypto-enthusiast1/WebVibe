@@ -65,9 +65,9 @@
       "items": [
          {
             "id": 1,
-            "title": "E-commerce Platform",
-            "category": "Online winkel",
-            "description": "Moderne online winkel met integratie van betaalsystemen",
+            "title": "Bedrijfswebsite",
+            "category": "Bedrijf",
+            "description": "Website voor het leveren van bouwdiensten",
             "technologies": [
                "React",
                "Node.js",
@@ -78,7 +78,7 @@
             "id": 2,
             "title": "Bedrijfswebsite",
             "category": "Bedrijf",
-            "description": "Representatieve website voor een groot bedrijf",
+            "description": "Representatieve website voor een persoonlijk bedrijf",
             "technologies": [
                "Next.js",
                "TypeScript",
@@ -89,7 +89,7 @@
             "id": 3,
             "title": "SaaS Platform",
             "category": "Startup",
-            "description": "Cloudoplossing voor projectbeheer",
+            "description": "Oplossingen voor bedrijfsontwikkeling",
             "technologies": [
                "React",
                "FastAPI",
@@ -141,9 +141,8 @@
       "send_button": "Versturen",
       "sending_button": "Verzenden...",
       "response_time": "We reageren meestal binnen 24 uur",
-      "email_label": "E-mailadres",
+      "email_label": "Contactgegevens",
       "social_media_label": "Sociale Media",
-      "email": "hello@webvibe.com",
       "telegram": "Telegram: @webvibe",
       "instagram": "Instagram: @webvibe",
       "success_title": "Bericht verzonden!",

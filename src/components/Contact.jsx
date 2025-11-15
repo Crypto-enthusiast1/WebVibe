@@ -133,29 +133,29 @@ const Contact = () => {
 
                <div className="space-y-6">
                   <Card className="contact-info-card">
-                     <CardHeader>
-                        <CardTitle className="flex items-center gap-2 text-lg text-white">
+                     <CardHeader className="p-4">
+                        <CardTitle className="flex items-center gap-2 text-lg text-white justify-center">
                            <Mail className="w-5 h-5" />
                            {t('contact.email_label')}
                         </CardTitle>
                      </CardHeader>
-                     <CardContent>
-                        <a href="mailto:hello@webvibe.com" className="contact-link">
-                           {t('contact.email')}
+                     <CardContent className="flex flex-col items-center gap-2">
+                        <a href="tel:+32473209725" className="contact-link">
+                           +32 473 20 97 25
+                        </a>
+                        <a href="mailto:webvibeee@gmail.com" className="contact-link">
+                           webvibeee@gmail.com
                         </a>
                      </CardContent>
                   </Card>
 
                   <Card className="contact-info-card">
-                     <CardHeader>
+                     <CardHeader className="items-center p-4">
                         <CardTitle className="text-lg text-white">{t('contact.social_media_label')}</CardTitle>
                      </CardHeader>
-                     <CardContent className="space-y-2">
-                        <a href="https://t.me/webvibe" target="_blank" rel="noopener noreferrer" className="contact-link block">
+                     <CardContent className="space-y-2 ">
+                        <a href="https://t.me/artem_0x" target="_blank" rel="noopener noreferrer" className="contact-link block text-center">
                            {t('contact.telegram')}
-                        </a>
-                        <a href="https://instagram.com/webvibe" target="_blank" rel="noopener noreferrer" className="contact-link block">
-                           {t('contact.instagram')}
                         </a>
                      </CardContent>
                   </Card>

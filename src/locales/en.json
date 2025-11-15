@@ -65,9 +65,9 @@
       "items": [
          {
             "id": 1,
-            "title": "E-commerce Platform",
-            "category": "Online Store",
-            "description": "Modern online store with payment system integration",
+            "title": "Business website",
+            "category": "Business",
+            "description": "Website for the provision of construction services",
             "technologies": [
                "React",
                "Node.js",
@@ -78,7 +78,7 @@
             "id": 2,
             "title": "Corporate Website",
             "category": "Business",
-            "description": "Representative website for a large company",
+            "description": "Representative website for a personal company",
             "technologies": [
                "Next.js",
                "TypeScript",
@@ -89,7 +89,7 @@
             "id": 3,
             "title": "SaaS Platform",
             "category": "Startup",
-            "description": "Cloud solution for project management",
+            "description": "Solutions for company development",
             "technologies": [
                "React",
                "FastAPI",
@@ -141,9 +141,8 @@
       "send_button": "Send",
       "sending_button": "Sending...",
       "response_time": "We usually respond within 24 hours",
-      "email_label": "Email",
+      "email_label": "Contacts",
       "social_media_label": "Social Media",
-      "email": "hello@webvibe.com",
       "telegram": "Telegram: @webvibe",
       "instagram": "Instagram: @webvibe",
       "success_title": "Message sent!",

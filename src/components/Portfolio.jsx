@@ -5,39 +5,68 @@ import { useTranslation } from 'react-i18next';
 
 const Portfolio = () => {
    const { t } = useTranslation();
-   const projects = t('portfolio.items', { returnObjects: true });
+
+   // Добавь url и image к каждому проекту в json или вручную в этом массиве:
+   const projects = [
+      {
+         ...t('portfolio.items.0', { returnObjects: true }),
+         url: 'https://www.constructionfloridaabc.com/',
+         image: '/images/build.png',
+      },
+      {
+         ...t('portfolio.items.1', { returnObjects: true }),
+         url: 'https://kinesiologie-palombo.ch/',
+         image: '/images/Palombo.png',
+      },
+      {
+         ...t('portfolio.items.2', { returnObjects: true }),
+         url: 'https://expertise.cvp-net.com/',
+         image: '/images/expertise.png',
+      },
+      {
+         ...t('portfolio.items.3', { returnObjects: true }),
+         url: 'https://www.epscorporation.uk/',
+         image: '/images/hause.png',
+      }
+   ];
 
    return (
       <section id="portfolio" className="section-padding portfolio-section">
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-16">
                <h2 className="section-title">{t('portfolio.title')}</h2>
-               <p className="section-subtitle">
-                  {t('portfolio.subtitle')}
-               </p>
+               <p className="section-subtitle">{t('portfolio.subtitle')}</p>
             </div>
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-               {Array.isArray(projects) && projects.map((project) => (
-                  <Card key={project.id} className="portfolio-card group">
-                     <CardHeader>
-                        <div className="flex items-start justify-between">
-                           <div>
+               {projects.map((project, idx) => (
+                  <Card key={idx} className="portfolio-card group flex flex-row justify-between">
+                     <div className="flex-1">
+                        <CardHeader>
+                           <div className="flex flex-col">
                               <CardTitle className="text-xl mb-1 title-neon">{project.title}</CardTitle>
                               <CardDescription className="text-sm mb-3 text-white">{project.category}</CardDescription>
                            </div>
-                        </div>
-                        <CardDescription className="text-base text-white">{project.description}</CardDescription>
-                     </CardHeader>
-                     <CardContent>
-                        <div className="flex flex-wrap gap-2">
-                           {Array.isArray(project.technologies) && project.technologies.map((tech, index) => (
-                              <Badge key={index} variant="secondary" className="tech-badge">
-                                 {tech}
-                              </Badge>
-                           ))}
-                        </div>
-                     </CardContent>
+                           <CardDescription className="text-base text-white">{project.description}</CardDescription>
+                        </CardHeader>
+                        <CardContent>
+                           <div className="flex flex-wrap gap-2">
+                              {Array.isArray(project.technologies) && project.technologies.map((tech, index) => (
+                                 <Badge key={index} variant="secondary" className="tech-badge">
+                                    {tech}
+                                 </Badge>
+                              ))}
+                           </div>
+                        </CardContent>
+                     </div>
+                     <div className="w-[10rem] flex-shrink-0 flex items-center justify-center p-4">
+                        <a href={project.url} target="_blank" rel="noopener noreferrer">
+                           <img
+                              src={project.image}
+                              alt="preview"
+                              className="rounded-md shadow-md transition-transform hover:scale-105"
+                           />
+                        </a>
+                     </div>
                   </Card>
                ))}
             </div>
