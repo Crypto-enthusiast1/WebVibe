@@ -87,7 +87,7 @@
          },
          {
             "id": 3,
-            "title": "SaaS Platform",
+            "title": "Dynamic Website",
             "category": "Startup",
             "description": "Solutions for company development",
             "technologies": [
@@ -102,9 +102,31 @@
             "category": "Marketing",
             "description": "High-conversion landing page",
             "technologies": [
-               "React",
+               "Vanilla JS",
                "Framer Motion",
                "CSS"
+            ]
+         },
+         {
+            "id": 5,
+            "title": "Dynamic Website",
+            "category": "Services",
+            "description": "Sports company",
+            "technologies": [
+               "Next.js",
+               "FastAPI",
+               "Tailwind"
+            ]
+         },
+         {
+            "id": 6,
+            "title": "Saas Platform",
+            "category": "Cloud Service",
+            "description": "solution for a company with a cloud service",
+            "technologies": [
+               "React",
+               "Node.js",
+               "SCSS"
             ]
          }
       ]

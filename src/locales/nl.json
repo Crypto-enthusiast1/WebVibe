@@ -87,7 +87,7 @@
          },
          {
             "id": 3,
-            "title": "SaaS Platform",
+            "title": "Dynamische website",
             "category": "Startup",
             "description": "Oplossingen voor bedrijfsontwikkeling",
             "technologies": [
@@ -102,9 +102,31 @@
             "category": "Marketing",
             "description": "Landingspagina met hoge conversie",
             "technologies": [
-               "React",
+               "Vanilla JS",
                "Framer Motion",
                "CSS"
+            ]
+         },
+         {
+            "id": 5,
+            "title": "Dynamische website",
+            "category": "Startup",
+            "description": "Oplossingen voor bedrijfsontwikkeling",
+            "technologies": [
+               "Next.js",
+               "FastAPI",
+               "Tailwind"
+            ]
+         },
+         {
+            "id": 6,
+            "title": "Product Landing",
+            "category": "Cloudservice",
+            "description": "Oplossing voor een bedrijf met een cloudservice",
+            "technologies": [
+               "React",
+               "Node.js",
+               "SCSS"
             ]
          }
       ]

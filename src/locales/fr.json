@@ -87,7 +87,7 @@
          },
          {
             "id": 3,
-            "title": "Plateforme SaaS",
+            "title": "Site Web Dynamique",
             "category": "Startup",
             "description": "Solutions pour le développement d'entreprise",
             "technologies": [
@@ -102,9 +102,31 @@
             "category": "Marketing",
             "description": "Page d'atterrissage à haute conversion",
             "technologies": [
-               "React",
+               "Vanilla JS",
                "Framer Motion",
                "CSS"
+            ]
+         },
+         {
+            "id": 5,
+            "title": "Site Web Dynamique",
+            "category": "Startup",
+            "description": "Solutions pour le développement d'entreprise",
+            "technologies": [
+               "Next.js",
+               "FastAPI",
+               "Tailwind"
+            ]
+         },
+         {
+            "id": 6,
+            "title": "Plateforme SaaS",
+            "category": "Service cloud",
+            "description": "Solution pour une entreprise avec un service cloud",
+            "technologies": [
+               "React",
+               "Node.js",
+               "SCSS"
             ]
          }
       ]

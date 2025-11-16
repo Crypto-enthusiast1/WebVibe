@@ -2,33 +2,15 @@ import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { useTranslation } from 'react-i18next';
+import projectsStatic from '../locales/projectStatic.json';
 
 const Portfolio = () => {
    const { t } = useTranslation();
-
-   // Добавь url и image к каждому проекту в json или вручную в этом массиве:
-   const projects = [
-      {
-         ...t('portfolio.items.0', { returnObjects: true }),
-         url: 'https://www.constructionfloridaabc.com/',
-         image: '/images/build.png',
-      },
-      {
-         ...t('portfolio.items.1', { returnObjects: true }),
-         url: 'https://kinesiologie-palombo.ch/',
-         image: '/images/Palombo.png',
-      },
-      {
-         ...t('portfolio.items.2', { returnObjects: true }),
-         url: 'https://expertise.cvp-net.com/',
-         image: '/images/expertise.png',
-      },
-      {
-         ...t('portfolio.items.3', { returnObjects: true }),
-         url: 'https://www.epscorporation.uk/',
-         image: '/images/hause.png',
-      }
-   ];
+   const projectsTranslation = t('portfolio.items', { returnObjects: true });
+   const projects = projectsTranslation.map((item, idx) => ({
+      ...item,
+      ...projectsStatic[idx]
+   }));
 
    return (
       <section id="portfolio" className="section-padding portfolio-section">
@@ -38,8 +20,8 @@ const Portfolio = () => {
                <p className="section-subtitle">{t('portfolio.subtitle')}</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-               {projects.map((project, idx) => (
-                  <Card key={idx} className="portfolio-card group flex flex-row justify-between">
+               {projects.map((project, id) => (
+                  <Card key={id} className="portfolio-card group flex flex-row justify-between">
                      <div className="flex-1">
                         <CardHeader>
                            <div className="flex flex-col">
