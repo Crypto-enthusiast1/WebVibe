@@ -3,6 +3,8 @@ import { initReactI18next } from 'react-i18next'
 import en from './locales/en.json'
 import fr from './locales/fr.json'
 import nl from './locales/nl.json'
+import ru from './locales/ru.json'
+import ua from './locales/ua.json'
 
 const resources = {
    en: {
@@ -14,6 +16,12 @@ const resources = {
    nl: {
       translation: nl,
    },
+   ru: {
+      translation: ru,
+   },
+   ua: {
+      translation: ua,
+   }
 }
 
 i18n.use(initReactI18next).init({
@@ -21,7 +29,7 @@ i18n.use(initReactI18next).init({
    lng: 'en',
    fallbackLng: 'en',
    interpolation: {
-      escapeValue: false, 
+      escapeValue: false,
    },
 })
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { useTranslation } from 'react-i18next';
@@ -7,9 +6,10 @@ import projectsStatic from '../locales/projectStatic.json';
 const Portfolio = () => {
    const { t } = useTranslation();
    const projectsTranslation = t('portfolio.items', { returnObjects: true });
-   const projects = projectsTranslation.map((item, idx) => ({
-      ...item,
-      ...projectsStatic[idx]
+   const translationsArray = Array.isArray(projectsTranslation) ? projectsTranslation : [];
+   const projects = projectsStatic.map((staticItem, idx) => ({
+      ...staticItem,
+      ...(translationsArray[idx] || {})
    }));
 
    return (

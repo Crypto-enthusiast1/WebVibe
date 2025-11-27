@@ -1,0 +1,191 @@
+{
+   "header": {
+      "logo": "WebVibe",
+      "mobile_menu": "Відкрити мобільне меню",
+      "scroll_to_top_title": "Угору"
+   },
+   "nav": {
+      "home": "Головна",
+      "services": "Послуги",
+      "portfolio": "Портфоліо",
+      "pricing": "Ціни",
+      "contact": "Контакти",
+      "get_in_touch": "Зв'язатися"
+   },
+   "hero": {
+      "badge": "Рішення наступного покоління",
+      "cta_start_project": "Розпочати проєкт",
+      "cta_view_work": "Переглянути роботи"
+   },
+   "services": {
+      "title": "Наші послуги",
+      "subtitle": "Комплексні рішення для зростання вашого бізнесу в інтернеті",
+      "custom_development": "Індивідуальна розробка",
+      "growth_marketing": "Зростання та маркетинг",
+      "product_strategy": "Продуктова стратегія",
+      "items": [
+         {
+            "id": 1,
+            "title": "Розробка сайтів",
+            "description": "Ми створюємо сучасні, швидкі та адаптивні сайти, які конвертують відвідувачів у клієнтів",
+            "features": [
+               "Адаптивний дизайн",
+               "Висока продуктивність",
+               "SEO-оптимізація",
+               "Сучасні технології"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "SEO-оптимізація",
+            "description": "Ми просуваємо ваш сайт у топ пошукових систем і привертаємо цільовий органічний трафік",
+            "features": [
+               "Аналіз конкурентів",
+               "Технічна оптимізація",
+               "Контент-стратегія",
+               "Зростання позицій"
+            ]
+         },
+         {
+            "id": 3,
+            "title": "Контекстна реклама",
+            "description": "Ми налаштовуємо ефективні рекламні кампанії для швидкого залучення клієнтів",
+            "features": [
+               "Google Ads",
+               "Facebook Ads",
+               "Аналіз ROI",
+               "Оптимізація бюджету"
+            ]
+         }
+      ]
+   },
+   "portfolio": {
+      "title": "Портфоліо",
+      "subtitle": "Приклади наших робіт і реалізованих проєктів",
+      "items": [
+         {
+            "id": 1,
+            "title": "E-commerce Platform",
+            "category": "Інтернет-магазин",
+            "description": "Сучасний інтернет-магазин з інтеграцією платіжної системи",
+            "technologies": [
+               "React",
+               "Node.js",
+               "MongoDB"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "Corporate Website",
+            "category": "Бізнес",
+            "description": "Представницький сайт для великої компанії",
+            "technologies": [
+               "Next.js",
+               "TypeScript",
+               "Tailwind"
+            ]
+         },
+         {
+            "id": 3,
+            "title": "SaaS Platform",
+            "category": "Стартап",
+            "description": "Хмарне рішення для управління проєктами",
+            "technologies": [
+               "React",
+               "FastAPI",
+               "PostgreSQL"
+            ]
+         },
+         {
+            "id": 4,
+            "title": "Product Landing",
+            "category": "Маркетинг",
+            "description": "Лендінг з високою конверсією",
+            "technologies": [
+               "React",
+               "Framer Motion",
+               "CSS"
+            ]
+         },
+         {
+            "id": 5,
+            "title": "Динамічний сайт",
+            "category": "Послуги",
+            "description": "Сайт для спортивної компанії",
+            "technologies": [
+               "Next.js",
+               "FastAPI",
+               "Tailwind"
+            ]
+         },
+         {
+            "id": 6,
+            "title": "SaaS-платформа",
+            "category": "Хмарний сервіс",
+            "description": "Рішення для компанії з хмарним сервісом",
+            "technologies": [
+               "React",
+               "Node.js",
+               "SCSS"
+            ]
+         }
+      ]
+   },
+   "pricing": {
+      "title": "Ціни",
+      "subtitle": "Індивідуальний підхід до кожного проєкту",
+      "website_development_title": "Розробка сайтів",
+      "website_development_note": "Включаючи планування, дизайн і запуск",
+      "advertising_campaign_title": "Рекламна кампанія",
+      "advertising_campaign_note": "Вартість кожної кампанії розраховується індивідуально залежно від цілей і бюджету",
+      "starting_price": "Від 500€",
+      "feature1": "Повний цикл розробки від дизайну до запуску",
+      "feature2": "Адаптивна верстка для всіх пристроїв",
+      "feature3": "Базова SEO-оптимізація",
+      "feature4": "Інтеграція аналітики",
+      "feature5": "3 місяці технічної підтримки",
+      "feature6": "Навчання по управлінню сайтом",
+      "feature7": "Розробка рекламної стратегії і медіаплану",
+      "feature8": "Таргетинг потрібної аудиторії",
+      "feature9": "Запуск і ведення кампаній на платформах (Google, Facebook, YouTube)",
+      "feature10": "Підтримка та оптимізація",
+      "cta_discuss": "Обговорити проєкт"
+   },
+   "contact": {
+      "title": "Зв'язатися",
+      "subtitle": "Готові обговорити проєкт? Напишіть нам!",
+      "form_title": "Надіслати повідомлення",
+      "form_description": "Заповніть форму — ми з вами зв'яжемося",
+      "name_placeholder": "Ваше ім'я",
+      "email_placeholder": "Email",
+      "phone_placeholder": "Ваш номер телефону",
+      "message_placeholder": "Ваше повідомлення",
+      "send_button": "Надіслати",
+      "sending_button": "Надсилання...",
+      "response_time": "Як правило, відповідаємо протягом 24 годин",
+      "email_label": "Email",
+      "social_media_label": "Соціальні мережі",
+      "email": "hello@webvibe.com",
+      "telegram": "Telegram: @webvibe",
+      "instagram": "Instagram: @webvibe",
+      "success_title": "Повідомлення надіслано!",
+      "success_description": "Ми зв'яжемося з вами найближчим часом."
+   },
+   "footer": {
+      "company": "WebVibe",
+      "company_tagline": "Створюємо цифрові рішення, які працюють",
+      "company_description": "Ми спеціалізуємося на створенні сучасних сайтів, SEO-оптимізації та ефективній контекстній рекламі. Наші рішення допомагають бізнесу зростати в цифровому середовищі.",
+      "services_title": "Послуги",
+      "services_website": "Розробка сайтів",
+      "services_seo": "SEO-оптимізація",
+      "services_advertising": "Контекстна реклама",
+      "contact_title": "Контакти",
+      "copyright": "© 2025 WebVibe. Всі права захищено.",
+      "made_with": "Зроблено з турботою"
+   },
+   "common": {
+      "not_found_title": "Сторінку не знайдено",
+      "not_found_message": "Вибачте, ми не змогли знайти цю сторінку.",
+      "loading": "Завантаження..."
+   }
+}

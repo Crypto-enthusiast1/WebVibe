@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
@@ -8,7 +8,9 @@ const LanguageSwitcher = () => {
    const languages = [
       { code: 'en', name: 'English', flag: '/images/en.png' },
       { code: 'fr', name: 'Français', flag: '/images/be.png' },
-      { code: 'nl', name: 'Nederlands', flag: '/images/nl.png' }
+      { code: 'nl', name: 'Nederlands', flag: '/images/nl.png' },
+      { code: 'ua', name: 'Ukrainian', flag: '/images/ua.png' },
+      { code: 'ru', name: 'Russian', flag: '/images/ru.png' }
    ];
 
    const changeLanguage = (langCode) => {
