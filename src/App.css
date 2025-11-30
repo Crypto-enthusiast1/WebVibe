@@ -439,7 +439,7 @@ body {
 /* ========== BACK TO TOP (ROCKET) ========== */
 .back-to-top {
    position: fixed;
-   right: 1.5rem;
+   left: 1.5rem;
    bottom: 1.5rem;
    width: 56px;
    height: 56px;
