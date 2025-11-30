@@ -65,6 +65,28 @@
       "items": [
          {
             "id": 1,
+            "title": "MGI Legal",
+            "category": "Юридичні послуги",
+            "description": "Професійний юридичний сайт для фірми з нерухомості та комерційного права",
+            "technologies": [
+               "React",
+               "Bootstrap",
+               "CSS"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "EPS Corporation",
+            "category": "Будівництво",
+            "description": "Сайт будівельної компанії для ремонту та розширення будинків",
+            "technologies": [
+               "HTML",
+               "JavaScript",
+               "CSS"
+            ]
+         },
+         {
+            "id": 3,
             "title": "E-commerce Platform",
             "category": "Інтернет-магазин",
             "description": "Сучасний інтернет-магазин з інтеграцією платіжної системи",
@@ -75,7 +97,7 @@
             ]
          },
          {
-            "id": 2,
+            "id": 4,
             "title": "Corporate Website",
             "category": "Бізнес",
             "description": "Представницький сайт для великої компанії",
@@ -86,7 +108,7 @@
             ]
          },
          {
-            "id": 3,
+            "id": 5,
             "title": "SaaS Platform",
             "category": "Стартап",
             "description": "Хмарне рішення для управління проєктами",
@@ -97,7 +119,7 @@
             ]
          },
          {
-            "id": 4,
+            "id": 6,
             "title": "Product Landing",
             "category": "Маркетинг",
             "description": "Лендінг з високою конверсією",
@@ -108,7 +130,7 @@
             ]
          },
          {
-            "id": 5,
+            "id": 7,
             "title": "Динамічний сайт",
             "category": "Послуги",
             "description": "Сайт для спортивної компанії",
@@ -119,7 +141,7 @@
             ]
          },
          {
-            "id": 6,
+            "id": 8,
             "title": "SaaS-платформа",
             "category": "Хмарний сервіс",
             "description": "Рішення для компанії з хмарним сервісом",

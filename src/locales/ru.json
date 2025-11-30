@@ -65,6 +65,28 @@
       "items": [
          {
             "id": 1,
+            "title": "MGI Legal",
+            "category": "Юридические услуги",
+            "description": "Профессиональный юридический сайт для фирмы по недвижимости и коммерческому праву",
+            "technologies": [
+               "React",
+               "Bootstrap",
+               "CSS"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "EPS Corporation",
+            "category": "Строительство",
+            "description": "Сайт строительной компании для ремонта и расширения домов",
+            "technologies": [
+               "HTML",
+               "JavaScript",
+               "CSS"
+            ]
+         },
+         {
+            "id": 3,
             "title": "E-commerce Platform",
             "category": "Интернет-магазин",
             "description": "Современный интернет-магазин с интеграцией платёжной системы",
@@ -75,7 +97,7 @@
             ]
          },
          {
-            "id": 2,
+            "id": 4,
             "title": "Corporate Website",
             "category": "Бизнес",
             "description": "Представительский сайт для крупной компании",
@@ -86,7 +108,7 @@
             ]
          },
          {
-            "id": 3,
+            "id": 5,
             "title": "SaaS Platform",
             "category": "Стартап",
             "description": "Облачное решение для управления проектами",
@@ -97,7 +119,7 @@
             ]
          },
          {
-            "id": 4,
+            "id": 6,
             "title": "Product Landing",
             "category": "Маркетинг",
             "description": "Высоко конверсионная лендинг-страница",
@@ -108,7 +130,7 @@
             ]
          },
          {
-            "id": 5,
+            "id": 7,
             "title": "Динамический сайт",
             "category": "Услуги",
             "description": "Сайт для спортивной компании",
@@ -119,7 +141,7 @@
             ]
          },
          {
-            "id": 6,
+            "id": 8,
             "title": "SaaS-платформа",
             "category": "Облачный сервис",
             "description": "Решение для компании с облачным сервисом",

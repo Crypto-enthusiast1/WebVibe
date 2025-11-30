@@ -65,6 +65,28 @@
       "items": [
          {
             "id": 1,
+            "title": "MGI Legal",
+            "category": "Juridische diensten",
+            "description": "Professionele juridische website voor vastgoed- en handelsrechtadvocatenkantoor",
+            "technologies": [
+               "React",
+               "Bootstrap",
+               "CSS"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "EPS Corporation",
+            "category": "Bouw",
+            "description": "Bouwbedrijf website voor renovaties en woninguitbreidingen",
+            "technologies": [
+               "HTML",
+               "JavaScript",
+               "CSS"
+            ]
+         },
+         {
+            "id": 3,
             "title": "Bedrijfswebsite",
             "category": "Bedrijf",
             "description": "Website voor het leveren van bouwdiensten",
@@ -75,7 +97,7 @@
             ]
          },
          {
-            "id": 2,
+            "id": 4,
             "title": "Bedrijfswebsite",
             "category": "Bedrijf",
             "description": "Representatieve website voor een persoonlijk bedrijf",
@@ -86,7 +108,7 @@
             ]
          },
          {
-            "id": 3,
+            "id": 5,
             "title": "Dynamische website",
             "category": "Startup",
             "description": "Oplossingen voor bedrijfsontwikkeling",
@@ -97,7 +119,7 @@
             ]
          },
          {
-            "id": 4,
+            "id": 6,
             "title": "Product Landing",
             "category": "Marketing",
             "description": "Landingspagina met hoge conversie",
@@ -108,7 +130,7 @@
             ]
          },
          {
-            "id": 5,
+            "id": 7,
             "title": "Dynamische website",
             "category": "Startup",
             "description": "Oplossingen voor bedrijfsontwikkeling",
@@ -119,7 +141,7 @@
             ]
          },
          {
-            "id": 6,
+            "id": 8,
             "title": "Product Landing",
             "category": "Cloudservice",
             "description": "Oplossing voor een bedrijf met een cloudservice",

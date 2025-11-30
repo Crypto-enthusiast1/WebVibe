@@ -65,6 +65,28 @@
       "items": [
          {
             "id": 1,
+            "title": "MGI Legal",
+            "category": "Legal Services",
+            "description": "Professional legal website for property and commercial law firm",
+            "technologies": [
+               "React",
+               "Bootstrap",
+               "CSS"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "EPS Corporation",
+            "category": "Construction",
+            "description": "Construction company website for renovations and house extensions",
+            "technologies": [
+               "HTML",
+               "JavaScript",
+               "CSS"
+            ]
+         },
+         {
+            "id": 3,
             "title": "Business website",
             "category": "Business",
             "description": "Website for the provision of construction services",
@@ -75,7 +97,7 @@
             ]
          },
          {
-            "id": 2,
+            "id": 4,
             "title": "Corporate Website",
             "category": "Business",
             "description": "Representative website for a personal company",
@@ -86,7 +108,7 @@
             ]
          },
          {
-            "id": 3,
+            "id": 5,
             "title": "Dynamic Website",
             "category": "Startup",
             "description": "Solutions for company development",
@@ -97,7 +119,7 @@
             ]
          },
          {
-            "id": 4,
+            "id": 6,
             "title": "Product Landing",
             "category": "Marketing",
             "description": "High-conversion landing page",
@@ -108,7 +130,7 @@
             ]
          },
          {
-            "id": 5,
+            "id": 7,
             "title": "Dynamic Website",
             "category": "Services",
             "description": "Sports company",
@@ -119,7 +141,7 @@
             ]
          },
          {
-            "id": 6,
+            "id": 8,
             "title": "Saas Platform",
             "category": "Cloud Service",
             "description": "solution for a company with a cloud service",

@@ -65,6 +65,28 @@
       "items": [
          {
             "id": 1,
+            "title": "MGI Legal",
+            "category": "Services juridiques",
+            "description": "Site web juridique professionnel pour cabinet d'avocat immobilier et commercial",
+            "technologies": [
+               "React",
+               "Bootstrap",
+               "CSS"
+            ]
+         },
+         {
+            "id": 2,
+            "title": "EPS Corporation",
+            "category": "Construction",
+            "description": "Site web d'entreprise de construction pour rénovations et extensions de maisons",
+            "technologies": [
+               "HTML",
+               "JavaScript",
+               "CSS"
+            ]
+         },
+         {
+            "id": 3,
             "title": "Site web d'entreprise",
             "category": "Entreprise",
             "description": "Site web pour la prestation de services de construction",
@@ -75,7 +97,7 @@
             ]
          },
          {
-            "id": 2,
+            "id": 4,
             "title": "Site d'entreprise",
             "category": "Entreprise",
             "description": "Site représentatif pour une personnelle entreprise",
@@ -86,7 +108,7 @@
             ]
          },
          {
-            "id": 3,
+            "id": 5,
             "title": "Site Web Dynamique",
             "category": "Startup",
             "description": "Solutions pour le développement d'entreprise",
@@ -97,7 +119,7 @@
             ]
          },
          {
-            "id": 4,
+            "id": 6,
             "title": "Landing produit",
             "category": "Marketing",
             "description": "Page d'atterrissage à haute conversion",
@@ -108,7 +130,7 @@
             ]
          },
          {
-            "id": 5,
+            "id": 7,
             "title": "Site Web Dynamique",
             "category": "Startup",
             "description": "Solutions pour le développement d'entreprise",
@@ -119,7 +141,7 @@
             ]
          },
          {
-            "id": 6,
+            "id": 8,
             "title": "Plateforme SaaS",
             "category": "Service cloud",
             "description": "Solution pour une entreprise avec un service cloud",
