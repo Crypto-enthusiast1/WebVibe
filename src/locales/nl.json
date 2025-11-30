@@ -71,14 +71,14 @@
             "technologies": [
                "React",
                "Bootstrap",
-               "CSS"
+               "MongoDB"
             ]
          },
          {
             "id": 2,
             "title": "EPS Corporation",
             "category": "Bouw",
-            "description": "Bouwbedrijf website voor renovaties en woninguitbreidingen",
+            "description": "Merk van kindercosmetica",
             "technologies": [
                "HTML",
                "JavaScript",

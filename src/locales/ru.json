@@ -71,14 +71,14 @@
             "technologies": [
                "React",
                "Bootstrap",
-               "CSS"
+               "MongoDB"
             ]
          },
          {
             "id": 2,
             "title": "EPS Corporation",
             "category": "Строительство",
-            "description": "Сайт строительной компании для ремонта и расширения домов",
+            "description": "Бренд детской косметики",
             "technologies": [
                "HTML",
                "JavaScript",
