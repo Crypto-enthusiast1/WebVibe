@@ -144,7 +144,7 @@
             "id": 8,
             "title": "Saas Platform",
             "category": "Cloud Service",
-            "description": "solution for a company with a cloud service",
+            "description": "Solution for a company with a cloud service",
             "technologies": [
                "React",
                "Node.js",
