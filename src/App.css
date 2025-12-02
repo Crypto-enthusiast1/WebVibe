@@ -26,10 +26,6 @@
    z-index: 10;
 }
 
-/* neon background container removed */
-
-/* neon background circles removed */
-
 html,
 body {
    overflow-x: hidden;
@@ -42,7 +38,6 @@ body {
 
 .header-scrolled {
    background: rgba(10, 10, 15, 0.95);
-   backdrop-filter: blur(12px);
 }
 
 .logo-text {
