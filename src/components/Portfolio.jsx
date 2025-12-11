@@ -21,7 +21,7 @@ const Portfolio = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                {projects.map((project, id) => (
-                  <Card key={id} className="portfolio-card group flex flex-row justify-between">
+                  <Card key={id} className="portfolio-card group flex flex-col md:flex-row justify-between">
                      <div className="flex-1">
                         <CardHeader>
                            <div className="flex flex-col">
@@ -40,7 +40,7 @@ const Portfolio = () => {
                            </div>
                         </CardContent>
                      </div>
-                     <div className="w-[10rem] flex-shrink-0 flex items-center justify-center p-4">
+                     <div className="w-full md:w-[10rem] flex-shrink-0 flex items-center justify-center p-4">
                         <a href={project.url} target="_blank" rel="noopener noreferrer">
                            <img
                               src={project.image}
