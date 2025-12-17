@@ -56,6 +56,17 @@
                "Analyse ROI",
                "Optimisation de Budget"
             ]
+         },
+         {
+            "id": 4,
+            "title": "Automatisation IA",
+            "description": "Nous implémentons des solutions intelligentes pour optimiser vos processus métier et augmenter l'efficacité",
+            "features": [
+               "Chatbots IA personnalisés",
+               "Automatisation des flux",
+               "Analyse de données",
+               "Intégration système"
+            ]
          }
       ]
    },
@@ -160,7 +171,7 @@
       "website_development_note": "Incluant la planification, la conception et le lancement",
       "advertising_campaign_title": "Campagne Publicitaire",
       "advertising_campaign_note": "Le coût de chaque campagne est calculé individuellement selon vos objectifs et votre budget",
-      "starting_price": "À partir de 500 €",
+      "starting_price": "Tarifs transparents",
       "feature1": "Cycle complet de développement de la conception au lancement",
       "feature2": "Mise en page réactive pour tous les appareils",
       "feature3": "Optimisation SEO basique",

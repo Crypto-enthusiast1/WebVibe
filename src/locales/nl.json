@@ -56,6 +56,17 @@
                "ROI-analyse",
                "Budgetoptimalisatie"
             ]
+         },
+         {
+            "id": 4,
+            "title": "AI-automatisering",
+            "description": "We implementeren intelligente oplossingen om uw bedrijfsprocessen te optimaliseren en de efficiëntie te verhogen",
+            "features": [
+               "Aangepaste AI-chatbots",
+               "Workflowautomatisering",
+               "Data-analyse",
+               "Systeemintegratie"
+            ]
          }
       ]
    },
@@ -160,7 +171,7 @@
       "website_development_note": "Inclusief planning, ontwerp en lancering",
       "advertising_campaign_title": "Advertentiecampagne",
       "advertising_campaign_note": "De kosten van elke campagne worden individueel berekend op basis van uw doelstellingen en budget",
-      "starting_price": "Vanaf 500 €",
+      "starting_price": "Transparante tarieven",
       "feature1": "Volledige ontwikkelingscyclus van ontwerp tot lancering",
       "feature2": "Responsieve layout voor alle apparaten",
       "feature3": "Basis SEO-optimalisatie",

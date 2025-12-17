@@ -1,11 +1,12 @@
-import { Code, TrendingUp, Target } from 'lucide-react';
+import { Code, TrendingUp, Target, Bot } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { useTranslation } from 'react-i18next';
 
 const iconMap = {
    1: Code,
    2: TrendingUp,
-   3: Target
+   3: Target,
+   4: Bot
 };
 
 const Services = () => {
@@ -20,7 +21,7 @@ const Services = () => {
                <p className="section-subtitle">{t('services.subtitle')}</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                {Array.isArray(services) && services.map((service) => {
                   const Icon = iconMap[service.id];
                   if (!Icon) return null;

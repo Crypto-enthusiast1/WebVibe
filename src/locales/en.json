@@ -56,6 +56,17 @@
                "ROI Analytics",
                "Budget Optimization"
             ]
+         },
+         {
+            "id": 4,
+            "title": "AI Business Automation",
+            "description": "We implement intelligent solutions to optimize your business processes and increase efficiency",
+            "features": [
+               "Custom AI Chatbots",
+               "Workflow Automation",
+               "Data Analytics",
+               "System Integration"
+            ]
          }
       ]
    },
@@ -160,7 +171,7 @@
       "website_development_note": "Includes planning, design and launch",
       "advertising_campaign_title": "Advertising Campaign",
       "advertising_campaign_note": "The cost of each campaign is calculated individually based on your goals and budget",
-      "starting_price": "Starting at 500€",
+      "starting_price": "Transparent pricing",
       "feature1": "Full development cycle from design to launch",
       "feature2": "Responsive layout for all devices",
       "feature3": "Basic SEO optimization",
