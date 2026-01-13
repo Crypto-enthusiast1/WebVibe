@@ -158,6 +158,11 @@ const Contact = () => {
                            {t('contact.telegram')}
                         </a>
                      </CardContent>
+                     <CardContent className="space-y-2 ">
+                        <a href="https://wa.me/380500123140" target="_blank" rel="noopener noreferrer" className="contact-link block text-center">
+                           {t('contact.whatsapp')}
+                        </a>
+                     </CardContent>
                   </Card>
 
                   <div className="contact-cta">
