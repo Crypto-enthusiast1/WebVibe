@@ -88,7 +88,7 @@
          {
             "id": 2,
             "title": "EPS Corporation",
-            "category": "Bouw",
+            "category": "Сosmetica",
             "description": "Merk van kindercosmetica",
             "technologies": [
                "HTML",
@@ -99,7 +99,7 @@
          {
             "id": 3,
             "title": "Bedrijfswebsite",
-            "category": "Bedrijf",
+            "category": "Bouw",
             "description": "Website voor het leveren van bouwdiensten",
             "technologies": [
                "React",
@@ -202,7 +202,7 @@
       "message_placeholder": "Uw bericht",
       "send_button": "Versturen",
       "sending_button": "Verzenden...",
-      "response_time": "We reageren meestal binnen 24 uur",
+      "response_time": "We reageren meestal binnen 2 uur",
       "email_label": "Contactgegevens",
       "social_media_label": "Sociale Media",
       "telegram": "Telegram: @webvibe",
@@ -214,7 +214,7 @@
    "footer": {
       "company": "WebVibe",
       "company_tagline": "Digitale oplossingen creëren die werken",
-      "company_description": "Wij zijn gespecialiseerd in het creëren van moderne websites, SEO-optimalisatie en effectieve contextuele advertenties. Onze oplossingen helpen bedrijven groeien in de digitale wereld.",
+      "company_description": "We bouwen websites, lanceren advertenties en integreren AI in processen. Alles zodat uw bedrijf sneller werkt en meer verdient.",
       "services_title": "Services",
       "services_website": "Website-ontwikkeling",
       "services_seo": "SEO-optimalisatie",

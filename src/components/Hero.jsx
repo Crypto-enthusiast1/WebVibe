@@ -33,7 +33,7 @@ const Hero = () => {
                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
                   <Button onClick={scrollToContact} className="cta-button-large group">
                      {t('hero.cta_start_project')}
-                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                     <ArrowRight className="w-5 h-5 ml-2 mt-4px group-hover:translate-x-1 transition-transform" />
                   </Button>
                   <Button
                      variant="outline"

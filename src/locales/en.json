@@ -88,7 +88,7 @@
          {
             "id": 2,
             "title": "EPS Corporation",
-            "category": "Construction",
+            "category": "Cosmetics",
             "description": "Brand of children's cosmetics",
             "technologies": [
                "HTML",
@@ -99,7 +99,7 @@
          {
             "id": 3,
             "title": "Business website",
-            "category": "Business",
+            "category": "Construction",
             "description": "Website for the provision of construction services",
             "technologies": [
                "React",
@@ -202,7 +202,7 @@
       "message_placeholder": "Your Message",
       "send_button": "Send",
       "sending_button": "Sending...",
-      "response_time": "We usually respond within 24 hours",
+      "response_time": "We usually respond within 2 hours",
       "email_label": "Contacts",
       "social_media_label": "Social Media",
       "email": "hello@webvibe.com",
@@ -215,7 +215,7 @@
    "footer": {
       "company": "WebVibe",
       "company_tagline": "Crafting digital solutions that work",
-      "company_description": "We specialize in creating modern websites, SEO optimization, and effective contextual advertising. Our solutions help businesses grow in the digital space.",
+      "company_description": "We build websites, launch ads, and bring AI into your processes. Everything to help your business work faster and earn more.",
       "services_title": "Services",
       "services_website": "Website Development",
       "services_seo": "SEO Optimization",

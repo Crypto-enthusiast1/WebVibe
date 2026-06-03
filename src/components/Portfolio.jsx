@@ -19,10 +19,10 @@ const Portfolio = () => {
                <h2 className="section-title">{t('portfolio.title')}</h2>
                <p className="section-subtitle">{t('portfolio.subtitle')}</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
                {projects.map((project, id) => (
-                  <Card key={id} className="portfolio-card group flex flex-col md:flex-row justify-between">
-                     <div className="flex-1">
+                  <Card key={id} className="portfolio-card group flex h-full flex-col md:flex-row justify-between">
+                     <div className="flex-1 flex h-full flex-col justify-between">
                         <CardHeader>
                            <div className="flex flex-col">
                               <CardTitle className="text-xl mb-1 title-neon">{project.title}</CardTitle>

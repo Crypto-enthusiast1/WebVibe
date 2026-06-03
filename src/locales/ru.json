@@ -88,7 +88,7 @@
          {
             "id": 2,
             "title": "EPS Corporation",
-            "category": "Строительство",
+            "category": "Косметика",
             "description": "Бренд детской косметики",
             "technologies": [
                "HTML",
@@ -99,8 +99,8 @@
          {
             "id": 3,
             "title": "E-commerce Platform",
-            "category": "Интернет-магазин",
-            "description": "Современный интернет-магазин с интеграцией платёжной системы",
+            "category": "Строительство",
+            "description": "Веб-сайт для предоставления строительных услуг",
             "technologies": [
                "React",
                "Node.js",
@@ -202,7 +202,7 @@
       "message_placeholder": "Ваше сообщение",
       "send_button": "Отправить",
       "sending_button": "Отправка...",
-      "response_time": "Обычно отвечаем в течение 24 часов",
+      "response_time": "Обычно отвечаем в течение 2 часов",
       "email_label": "Email",
       "social_media_label": "Социальные сети",
       "email": "hello@webvibe.com",
@@ -215,7 +215,7 @@
    "footer": {
       "company": "WebVibe",
       "company_tagline": "Создаём цифровые решения, которые работают",
-      "company_description": "Мы специализируемся на создании современных сайтов, SEO-оптимизации и эффективной контекстной рекламе. Наши решения помогают бизнесу расти в цифровой среде.",
+      "company_description": "Создаем сайты, запускаем рекламу и внедряем ИИ в процессы. Все, чтобы ваш бизнес работал быстрее и зарабатывал больше.",
       "services_title": "Услуги",
       "services_website": "Разработка сайтов",
       "services_seo": "SEO-оптимизация",
