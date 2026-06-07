@@ -142,7 +142,7 @@
          },
          {
             "id": 7,
-            "title": "Динамічний сайт",
+            "title": "Sport Company",
             "category": "Послуги",
             "description": "Сайт для спортивної компанії",
             "technologies": [
@@ -153,7 +153,7 @@
          },
          {
             "id": 8,
-            "title": "SaaS-платформа",
+            "title": "SaaS-Platform",
             "category": "Хмарний сервіс",
             "description": "Рішення для компанії з хмарним сервісом",
             "technologies": [
@@ -171,7 +171,9 @@
       "website_development_note": "Включаючи планування, дизайн і запуск",
       "advertising_campaign_title": "Рекламна кампанія",
       "advertising_campaign_note": "Вартість кожної кампанії розраховується індивідуально залежно від цілей і бюджету",
-      "starting_price": "Прозорі тарифи",
+      "starting_price_site": "Від 800€",
+      "starting_price_add": "Від 500€",
+      "starting_price_AI": "Індивідуальна ціна",
       "feature1": "Повний цикл розробки від дизайну до запуску",
       "feature2": "Адаптивна верстка для всіх пристроїв",
       "feature3": "Базова SEO-оптимізація",

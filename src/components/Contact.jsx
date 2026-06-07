@@ -140,9 +140,6 @@ const Contact = () => {
                         </CardTitle>
                      </CardHeader>
                      <CardContent className="flex flex-col items-center gap-2">
-                        <a href="tel:+32473209725" className="contact-link">
-                           +32 473 20 97 25
-                        </a>
                         <a href="mailto:webvibeee@gmail.com" className="contact-link">
                            webvibeee@gmail.com
                         </a>

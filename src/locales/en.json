@@ -142,7 +142,7 @@
          },
          {
             "id": 7,
-            "title": "Dynamic Website",
+            "title": "Sport Company",
             "category": "Services",
             "description": "Sports company",
             "technologies": [
@@ -153,7 +153,7 @@
          },
          {
             "id": 8,
-            "title": "Saas Platform",
+            "title": "SaaS Platform",
             "category": "Cloud Service",
             "description": "Solution for a company with a cloud service",
             "technologies": [
@@ -171,7 +171,9 @@
       "website_development_note": "Includes planning, design and launch",
       "advertising_campaign_title": "Advertising Campaign",
       "advertising_campaign_note": "The cost of each campaign is calculated individually based on your goals and budget",
-      "starting_price": "Transparent pricing",
+      "starting_price_site": "From 800€",
+      "starting_price_add": "From 500€",
+      "starting_price_AI": "Individual price",
       "feature1": "Full development cycle from design to launch",
       "feature2": "Responsive layout for all devices",
       "feature3": "Basic SEO optimization",

@@ -142,7 +142,7 @@
          },
          {
             "id": 7,
-            "title": "Dynamische website",
+            "title": "Website van een sportbedrijf",
             "category": "Startup",
             "description": "Oplossingen voor bedrijfsontwikkeling",
             "technologies": [
@@ -153,7 +153,7 @@
          },
          {
             "id": 8,
-            "title": "Product Landing",
+            "title": "SaaS-Platform",
             "category": "Cloudservice",
             "description": "Oplossing voor een bedrijf met een cloudservice",
             "technologies": [
@@ -171,7 +171,9 @@
       "website_development_note": "Inclusief planning, ontwerp en lancering",
       "advertising_campaign_title": "Advertentiecampagne",
       "advertising_campaign_note": "De kosten van elke campagne worden individueel berekend op basis van uw doelstellingen en budget",
-      "starting_price": "Transparante tarieven",
+      "starting_price_site": "Vanaf 800€",
+      "starting_price_add": "Vanaf 500€",
+      "starting_price_AI": "Individuele prijs",
       "feature1": "Volledige ontwikkelingscyclus van ontwerp tot lancering",
       "feature2": "Responsieve layout voor alle apparaten",
       "feature3": "Basis SEO-optimalisatie",

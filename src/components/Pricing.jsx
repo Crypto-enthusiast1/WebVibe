@@ -36,7 +36,7 @@ const Pricing = () => {
                      </ul>
                      <div className="mt-auto">
                         <div className="pricing-badge mb-4 text-center p-2">
-                           <span className="text-2xl font-bold">{t('pricing.starting_price')}</span>
+                           <span className="text-2xl font-bold">{t('pricing.starting_price_site')}</span>
                         </div>
                         <Button onClick={scrollToContact} className="w-full cta-button-large text-center">{t('pricing.cta_discuss')}</Button>
                      </div>
@@ -58,7 +58,7 @@ const Pricing = () => {
                      </ul>
                      <div className="mt-auto">
                         <div className="pricing-badge mb-4 text-center p-2">
-                           <span className="text-2xl font-bold">{t('pricing.starting_price')}</span>
+                           <span className="text-2xl font-bold">{t('pricing.starting_price_add')}</span>
                         </div>
                         <Button onClick={scrollToContact} className="w-full cta-button-large text-center">{t('pricing.cta_discuss')}</Button>
                      </div>
@@ -80,7 +80,7 @@ const Pricing = () => {
                      </ul>
                      <div className="mt-auto">
                         <div className="pricing-badge mb-4 text-center p-2">
-                           <span className="text-2xl font-bold">{t('pricing.starting_price')}</span>
+                           <span className="text-2xl font-bold">{t('pricing.starting_price_AI')}</span>
                         </div>
                         <Button onClick={scrollToContact} className="w-full cta-button-large text-center">{t('pricing.cta_discuss')}</Button>
                      </div>
