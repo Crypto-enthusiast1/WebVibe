@@ -20,7 +20,7 @@ const Pricing = () => {
                <p className="section-subtitle">{t('pricing.subtitle')}</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-               {/* Карточка 1 */}
+               {/* Карточка 1 WebSite */}
                <Card className="pricing-card flex flex-col h-full">
                   <CardHeader className="text-center pb-8">
                      <CardTitle className="text-2xl mb-3 title-neon">{t('pricing.website_development_title')}</CardTitle>
@@ -42,7 +42,7 @@ const Pricing = () => {
                      </div>
                   </CardContent>
                </Card>
-               {/* Карточка 2 */}
+               {/* Карточка 2 Advertising */}
                <Card className="pricing-card flex flex-col h-full">
                   <CardHeader className="text-center pb-8">
                      <CardTitle className="text-2xl mb-3 title-neon">{t('pricing.advertising_campaign_title')}</CardTitle>

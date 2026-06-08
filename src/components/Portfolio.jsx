@@ -28,7 +28,21 @@ const Portfolio = () => {
                               <CardTitle className="text-xl mb-1 title-neon">{project.title}</CardTitle>
                               <CardDescription className="text-sm mb-3 text-white">{project.category}</CardDescription>
                            </div>
-                           <CardDescription className="text-base text-white">{project.description}</CardDescription>
+                           <CardDescription className="text-base text-white">
+                              {project.description && project.description.split('\n').map((line, idx) => {
+                                 const trimmed = line.trim();
+                                 if (!trimmed) return <div key={idx} className="h-2" />;
+                                 if (trimmed.startsWith('- ')) {
+                                    return (
+                                       <div key={idx} className="flex items-start gap-3">
+                                          <span className="mt-1.5 flex-shrink-0 w-2 h-2 rounded-full" style={{ background: '#00f5ff' }} />
+                                          <span className="text-base text-white">{trimmed.replace(/^-\s*/, '')}</span>
+                                       </div>
+                                    );
+                                 }
+                                 return <p key={idx} className="mb-2 text-base text-white">{trimmed}</p>;
+                              })}
+                           </CardDescription>
                         </CardHeader>
                         <CardContent>
                            <div className="flex flex-wrap gap-2">

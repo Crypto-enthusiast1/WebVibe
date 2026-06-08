@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
@@ -18,10 +18,24 @@ const LanguageSwitcher = () => {
       setIsOpen(false);
    };
 
+   const wrapperRef = useRef(null);
+
+   useEffect(() => {
+      function handlePointerDown(e) {
+         if (!wrapperRef.current) return;
+         if (isOpen && !wrapperRef.current.contains(e.target)) {
+            setIsOpen(false);
+         }
+      }
+
+      document.addEventListener('pointerdown', handlePointerDown);
+      return () => document.removeEventListener('pointerdown', handlePointerDown);
+   }, [isOpen]);
+
    const currentLang = languages.find(lang => lang.code === i18n.language) || languages[0];
 
    return (
-      <div className="language-switcher relative">
+      <div ref={wrapperRef} className="language-switcher relative">
          <button
             onClick={() => setIsOpen(!isOpen)}
             className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/10 transition-colors text-white justify-self-end"

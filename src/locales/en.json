@@ -78,7 +78,7 @@
             "id": 1,
             "title": "MGI Legal",
             "category": "Legal Services",
-            "description": "Professional legal website for property and commercial law firm",
+            "description": "Website development for MGI Legal strengthened client trust and simplified initial contact.\n\n- Clearly presented the firm's legal services.\n- Simplified navigation and finding information.\n- Increased trust from potential clients.\n- Reduced load on initial consultations.\n- Helped increase the number of inquiries.",
             "technologies": [
                "React",
                "Bootstrap",
@@ -87,9 +87,9 @@
          },
          {
             "id": 2,
-            "title": "EPS Corporation",
+            "title": "MiniMi",
             "category": "Cosmetics",
-            "description": "Brand of children's cosmetics",
+            "description": "Creating the site for MiniMi modernized the children's cosmetics brand, making it clearer and more convenient for parents.\n\n- Presented the children's cosmetics brand in a modern and clear way.\n- Simplified product selection for parents.\n- Reduced unnecessary questions to managers.\n- Improved the user journey to purchase.\n- Supported growth in sales and new orders.",
             "technologies": [
                "HTML",
                "JavaScript",
@@ -98,9 +98,9 @@
          },
          {
             "id": 3,
-            "title": "Business website",
+            "title": "Construction Florida ABC",
             "category": "Construction",
-            "description": "Website for the provision of construction services",
+            "description": "The website developed for Construction Florida ABC clearly showcases services and builds trust in the company.\n\n- Clearly showed the range of construction and handyman services.\n- Made the site convenient for quick decision-making.\n- Increased trust in the company.\n- Reduced communication load with clients.\n- Helped generate more service requests.",
             "technologies": [
                "React",
                "Node.js",
@@ -109,9 +109,9 @@
          },
          {
             "id": 4,
-            "title": "Corporate Website",
+            "title": "Kinesiologie Palombo",
             "category": "Business",
-            "description": "Representative website for a personal company",
+            "description": "The site for Kinesiologie Palombo professionally presents the practitioner's services and simplifies booking consultations.\n\n- Professionally showcased the practitioner's services.\n- Made information about the practice clearer.\n- Simplified booking consultations.\n- Reduced the number of clarifying questions.\n- Helped attract new clients.",
             "technologies": [
                "Next.js",
                "TypeScript",
@@ -120,9 +120,9 @@
          },
          {
             "id": 5,
-            "title": "Dynamic Website",
+            "title": "CVP Expertise",
             "category": "Startup",
-            "description": "Solutions for company development",
+            "description": "Website development for CVP Expertise helped clearly present the company's expert services and strengthened the professional impression.\n\n- Clearly and structurally presented the company's expert services.\n- Enhanced the business and professional impression.\n- Made it easier for clients to get acquainted with the offering.\n- Reduced the number of repetitive questions.\n- Increased trust and inbound inquiries.",
             "technologies": [
                "React",
                "FastAPI",
@@ -133,7 +133,7 @@
             "id": 6,
             "title": "Product Landing",
             "category": "Marketing",
-            "description": "High-conversion landing page",
+            "description": "Creating a website for the construction company allowed showcasing services, experience, and approach to work clearly.\n\n- Visually presented services, experience, and approach.\n- Made the site structure clear and user-friendly.\n- Simplified the user's journey to a request.\n- Reduced support workload.\n- Helped increase the number of inquiries.",
             "technologies": [
                "Vanilla JS",
                "Framer Motion",
@@ -142,9 +142,9 @@
          },
          {
             "id": 7,
-            "title": "Sport Company",
+            "title": "Pride Muay Thai League",
             "category": "Services",
-            "description": "Sports company",
+            "description": "The website developed for Pride Muay Thai League vividly presents the tournament and simplifies participation.\n\n- Vividly presented the tournament and its format.\n- Simplified understanding of participation terms.\n- Reduced repetitive questions.\n- Made registration and participant engagement easier.\n- Helped attract a new audience.",
             "technologies": [
                "Next.js",
                "FastAPI",
@@ -153,9 +153,9 @@
          },
          {
             "id": 8,
-            "title": "SaaS Platform",
+            "title": "TacticMap",
             "category": "Cloud Service",
-            "description": "Solution for a company with a cloud service",
+            "description": "The site for TacticMap helps clearly explain a complex digital product and onboard new users faster.\n\n- Clearly explained a complex digital product.\n- Simplified understanding of the service's value.\n- Lowered the barrier to entry for new users.\n- Reduced support load.\n- Helped boost interest in the product and grow the audience.",
             "technologies": [
                "React",
                "Node.js",

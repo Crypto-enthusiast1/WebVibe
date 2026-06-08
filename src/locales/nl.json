@@ -78,7 +78,7 @@
             "id": 1,
             "title": "MGI Legal",
             "category": "Juridische diensten",
-            "description": "Professionele juridische website voor vastgoed- en handelsrechtadvocatenkantoor",
+            "description": "De ontwikkeling van de website voor MGI Legal versterkte het vertrouwen van klanten en vereenvoudigde het eerste contact.\n\n- Heldere presentatie van de juridische diensten van het kantoor.\n- Navigatie en informatiezoektocht vereenvoudigd.\n- Toegenomen vertrouwen van potentiële klanten.\n- Verminderde belasting op eerste consultaties.\n- Bijgedragen aan een toename van het aantal aanvragen.",
             "technologies": [
                "React",
                "Bootstrap",
@@ -89,7 +89,7 @@
             "id": 2,
             "title": "EPS Corporation",
             "category": "Сosmetica",
-            "description": "Merk van kindercosmetica",
+            "description": "De website voor MiniMi maakte het merk kindercosmetica moderner, duidelijker en handiger voor ouders.\n\n- Modern en duidelijk gepresenteerd merk.\n- Eenvoudigere productkeuze voor ouders.\n- Minder onnodige vragen aan managers.\n- Verbeterde klantreis naar aankoop.\n- Ondersteuning voor groei in verkoop en nieuwe bestellingen.",
             "technologies": [
                "HTML",
                "JavaScript",
@@ -100,7 +100,7 @@
             "id": 3,
             "title": "Bedrijfswebsite",
             "category": "Bouw",
-            "description": "Website voor het leveren van bouwdiensten",
+            "description": "De website voor Construction Florida ABC presenteert diensten duidelijk en vergroot het vertrouwen in het bedrijf.\n\n- Duidelijke weergave van het scala aan bouw- en klusdiensten.\n- Site ingericht voor snelle besluitvorming.\n- Verhoogd vertrouwen in het bedrijf.\n- Verminderde communicatielast met klanten.\n- Hielp bij het genereren van meer serviceaanvragen.",
             "technologies": [
                "React",
                "Node.js",
@@ -111,7 +111,7 @@
             "id": 4,
             "title": "Bedrijfswebsite",
             "category": "Bedrijf",
-            "description": "Representatieve website voor een persoonlijk bedrijf",
+            "description": "De site voor Kinesiologie Palombo presenteert de diensten van de beoefenaar professioneel en vereenvoudigt het maken van afspraken.\n\n- Professionele presentatie van de diensten van de beoefenaar.\n- Duidelijkere informatie over de praktijk.\n- Vereenvoudigde afspraakplanning.\n- Vermindering van verduidelijkende vragen.\n- Hielp bij het aantrekken van nieuwe klanten.",
             "technologies": [
                "Next.js",
                "TypeScript",
@@ -122,7 +122,7 @@
             "id": 5,
             "title": "Dynamische website",
             "category": "Startup",
-            "description": "Oplossingen voor bedrijfsontwikkeling",
+            "description": "De ontwikkeling van de website voor CVP Expertise hielp om de expertise-diensten van het bedrijf duidelijk te presenteren en de professionele indruk te versterken.\n\n- Duidelijke en gestructureerde presentatie van de expertise-diensten van het bedrijf.\n- Versterking van de zakelijke en professionele indruk.\n- Gemakkelijker kennismaken met het aanbod voor klanten.\n- Vermindering van repetitieve vragen.\n- Verhoogd vertrouwen en meer binnenkomende aanvragen.",
             "technologies": [
                "React",
                "FastAPI",
@@ -133,7 +133,7 @@
             "id": 6,
             "title": "Product Landing",
             "category": "Marketing",
-            "description": "Landingspagina met hoge conversie",
+            "description": "Het creëren van een website voor de bouwonderneming maakte het mogelijk om diensten, ervaring en aanpak duidelijk te tonen.\n\n- Visuele weergave van diensten, ervaring en aanpak.\n- Duidelijke en gebruiksvriendelijke sitestructuur.\n- Vereenvoudigde gebruikersreis naar een aanvraag.\n- Verminderde belasting van de support.\n- Hielp bij het vergroten van het aantal aanvragen.",
             "technologies": [
                "Vanilla JS",
                "Framer Motion",
@@ -144,7 +144,7 @@
             "id": 7,
             "title": "Website van een sportbedrijf",
             "category": "Startup",
-            "description": "Oplossingen voor bedrijfsontwikkeling",
+            "description": "De site voor Pride Muay Thai League presenteert het toernooi levendig en vereenvoudigt deelname.\n\n- Levendige presentatie van het toernooi en het format.\n- Eenvoudigere begrijpelijkheid van deelnamevoorwaarden.\n- Vermindering van repetitieve vragen.\n- Vergemakkelijking van registratie en betrokkenheid van deelnemers.\n- Hielp bij het aantrekken van nieuw publiek.",
             "technologies": [
                "Next.js",
                "FastAPI",
@@ -155,7 +155,7 @@
             "id": 8,
             "title": "SaaS-Platform",
             "category": "Cloudservice",
-            "description": "Oplossing voor een bedrijf met een cloudservice",
+            "description": "De site voor TacticMap helpt een complex digitaal product duidelijk uit te leggen en sneller nieuwe gebruikers te betrekken.\n\n- Duidelijke uitleg van een complex digitaal product.\n- Vereenvoudiging van de waardebeleving van de dienst.\n- Verlaging van de instapdrempel voor nieuwe gebruikers.\n- Vermindering van de supportbelasting.\n- Hielp bij het versterken van de interesse in het product en de groei van het publiek.",
             "technologies": [
                "React",
                "Node.js",
